@@ -10,8 +10,8 @@ print("\n")
 while i<a:
 	i+=1
 	archivo=open('NumerosTelefonicos.txt','a')
-	nombre=raw_input("Ingresa el nombre # "+str(i)+" :")
-	telefono=raw_input("Ingresa el telefono del contacto # "+str(i)+" :")
+	nombre=input("Ingresa el nombre # "+str(i)+" :")
+	telefono=input("Ingresa el telefono del contacto # "+str(i)+" :")
 	print("\n")
 	archivo.write(str(nombre)+" "+str(telefono)+"\n")
 	archivo.close()
