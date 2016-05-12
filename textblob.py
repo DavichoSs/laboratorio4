@@ -19,8 +19,8 @@ blob.noun_phrases   # WordList(['titular threat', 'blob',
                     #            'amoeba-like mass', ...])
 
 for sentence in blob.sentences:
-    print(sentence.sentiment.polarity)
+	print(sentence.sentiment.polarity)
 # 0.060
 # -0.341
 
-#blob.translate(to="es")  # 'La amenaza titular de The Blob...'
+blob.translate(to="es")  # 'La amenaza titular de The Blob...'
