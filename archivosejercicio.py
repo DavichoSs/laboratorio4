@@ -1,6 +1,6 @@
 def grabartxt():
     archivo=open('datos.txt','w')
-    archivo.write('Hola mundo Mi nombre es Alexander Mi compa se llama Ruben')
+    archivo.write('Hola mundo Mi nombre es Alexander Mi compa se llama Ruben Pozo')
     archivo.close()
 grabartxt()
 
