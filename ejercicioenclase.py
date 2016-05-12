@@ -1,4 +1,9 @@
-cadena=input("Ingrese una frase:")
-c=cadena.replace(" ","")
-print("Hay "+str(len(c)) +"letras")
-opc=int(imput("Presione 1 para seguir - 0 para salir"))
+z=0
+a=int(input("Cuantas frases desea ingresar: "))
+for i in range(1,a+1):
+	cadena=input("Ingrese frase "+str(i)+" :")
+	b=cadena.replace(" ","")
+	c=len(b)
+	z=z+c
+	print("Existen: "+str(len(b))+" letras.")
+print("Total de caracteres: "+str(z))
