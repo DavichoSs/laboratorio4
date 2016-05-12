@@ -1,0 +1,19 @@
+def crearTxt():
+	archivo=open('NumerosTelefonicos.txt','w')
+	archivo.close()
+
+crearTxt()
+
+a=int(input("Cuantos contactos desea ingresar? "))
+i=0
+print("\n")
+while i<a:
+	i+=1
+	archivo=open('NumerosTelefonicos.txt','a')
+	nombre=raw_input("Ingresa el nombre # "+str(i)+" :")
+	telefono=raw_input("Ingresa el telefono del contacto # "+str(i)+" :")
+	print("\n")
+	archivo.write(str(nombre)+" "+str(telefono)+"\n")
+	archivo.close()
+pass
+
