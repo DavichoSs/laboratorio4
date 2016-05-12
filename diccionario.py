@@ -4,7 +4,7 @@ def crearTxt():
 
 crearTxt()
 
-a=int(input("Cuantos contactos desea ingresar? "))
+a=int(input("Cuantos contactos desea ingresar a la guia telefonica? "))
 i=0
 print("\n")
 while i<a:
