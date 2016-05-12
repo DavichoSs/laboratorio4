@@ -1,5 +1,4 @@
 from textblob import TextBlob
-
 text = '''
 The titular threat of The Blob has always struck me as the ultimate movie
 monster: an insatiably hungry, amoeba-like mass able to penetrate
@@ -24,4 +23,4 @@ for sentence in blob.sentences:
 # 0.060
 # -0.341
 
-blob.translate(to="es")  # 'La amenaza titular de The Blob...'
+#blob.translate(to="es")  # 'La amenaza titular de The Blob...'
