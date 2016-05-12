@@ -1,6 +1,10 @@
 def grabartxt():
     archivo=open('datos.txt','w')
+<<<<<<< HEAD
     archivo.write('Mi nombre es Alexander Mi compa se llama Ruben')
+=======
+    archivo.write('Hola mundo Mi nombre es Alexander Mi compa se llama Ruben Pozo')
+>>>>>>> origin/master
     archivo.close()
 grabartxt()
 
