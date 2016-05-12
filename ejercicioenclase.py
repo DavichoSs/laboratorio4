@@ -1,3 +1,3 @@
 cadena=input("Ingrese una frase: ")
 b=cadena.replace(" ","")
-print(len(b))
+print("Existen: "+str(len(b))+" letras.")
